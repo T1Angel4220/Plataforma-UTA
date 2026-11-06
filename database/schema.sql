@@ -66,3 +66,4 @@ INSERT INTO `logindocente` (
   'Demo123*',
   1
 ) ON DUPLICATE KEY UPDATE `id_Docente`=`id_Docente`;
+

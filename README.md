@@ -16,15 +16,26 @@ Este proyecto implementa una solución integral para el registro, verificación 
 
 ## 📌 Tabla de Contenidos
 
-- [Características Principales](#-características-principales)
-- [Arquitectura y Módulos](#-arquitectura-y-módulos)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Requisitos Previos](#-requisitos-previos)
-- [Instalación y Configuración](#-instalación-y-configuración)
-- [Modelo de Base de Datos](#-modelo-de-base-de-datos)
-- [Seguridad y Buenas Prácticas](#-seguridad-y-buenas-prácticas)
-- [Autor](#-autor)
+- [🎓 Plataforma Educativa UTA](#-plataforma-educativa-uta)
+  - [📌 Tabla de Contenidos](#-tabla-de-contenidos)
+  - [🚀 Características Principales](#-características-principales)
+    - [🔐 1. Autenticación Multicanal y Single Sign-On (SSO)](#-1-autenticación-multicanal-y-single-sign-on-sso)
+    - [📝 2. Registro y Verificación Docente](#-2-registro-y-verificación-docente)
+    - [📊 3. Panel de Control y Experiencia de Usuario (Dashboard)](#-3-panel-de-control-y-experiencia-de-usuario-dashboard)
+    - [🤖 4. Asistente Virtual / Chatbot Académico](#-4-asistente-virtual--chatbot-académico)
+  - [🏗 Arquitectura y Módulos](#-arquitectura-y-módulos)
+  - [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+  - [💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
+  - [📋 Requisitos Previos](#-requisitos-previos)
+  - [⚙️ Instalación y Configuración](#️-instalación-y-configuración)
+    - [1. Clonar el repositorio](#1-clonar-el-repositorio)
+    - [2. Configurar la Base de Datos](#2-configurar-la-base-de-datos)
+    - [3. Instalar Dependencias de Composer](#3-instalar-dependencias-de-composer)
+    - [4. Configurar Variables de Entorno](#4-configurar-variables-de-entorno)
+    - [5. Ejecutar la Aplicación](#5-ejecutar-la-aplicación)
+  - [🗄 Modelo de Base de Datos](#-modelo-de-base-de-datos)
+    - [Tabla: `logindocente`](#tabla-logindocente)
+  - [🛡️ Seguridad y Buenas Prácticas](#️-seguridad-y-buenas-prácticas)
 
 ---
 
@@ -239,14 +250,3 @@ Almacena el perfil completo y el estado de activación de los docentes registrad
 - **Sanitización de Entradas:** Filtrado de entradas de formularios para mitigar vulnerabilidades comunes y control de tipos en JavaScript.
 
 ---
-
-## 👨‍💻 Autor
-
-- **Angel Ayuquina** - *Desarrollo de Software* - [GitHub Profile](https://github.com/T1Angel4220)
-- **Institución:** Universidad Técnica de Ambato (UTA) - FISEI
-
----
-
-## 📄 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**. Para más detalles, consulte el archivo `LICENSE`.
