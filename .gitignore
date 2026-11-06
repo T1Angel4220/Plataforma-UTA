@@ -1,0 +1,40 @@
+# ============================================
+# Git Ignore - Plataforma Educativa UTA
+# ============================================
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Composer dependencies
+vendor/
+**/vendor/
+composer.phar
+
+# Archives & Compressed files
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.7z
+
+# OS metadata & temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Logs & cache
+*.log
+temp/
+tmp/
