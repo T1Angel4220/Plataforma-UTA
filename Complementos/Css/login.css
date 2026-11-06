@@ -1,0 +1,179 @@
+/* Estilos generales */
+body,
+html {
+    background-image: url('../Complementos/imagenes/Fondoogin.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin: 0;
+}
+
+#boxplataforma {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6), inset 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    color: #8b0000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+#left-image {
+    width: 18%;
+    height: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#right-image {
+    width: 18%;
+    height: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #990000;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #990000, #d9534f);
+}
+
+.google-login {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Estilo para el botón de iniciar sesión con Google */
+.google-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    /* Fondo blanco */
+    color: #000;
+    /* Color de texto negro */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.google-btn:hover {
+    background-color: #f7f7f7;
+    border-color: #999;
+}
+
+.google-icon {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.btn-text {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.google-login p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#offline-banner {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 40, 40, 0.8);
+    z-index: 9999;
+    text-align: center;
+}
+
+.loading-banner {
+    background-image: url('Resources/Cargando.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#offline-message {
+    font-size: 24px;
+    color: white;
+    padding-top: 20%;
+}
+
+@media only screen and (min-device-width: 1440px) and (max-device-height: 3200px) {
+    #boxplataforma {
+        max-width: 100%;
+    }
+
+    #left-image,
+    #right-image {
+        display: none;
+        /* Ocultar los logos en dispositivos móviles */
+    }
+
+    .login-container {
+        max-width: 80%;
+    }
+
+    input,
+    button,
+    .google-btn {
+        width: 100%;
+    }
+}
