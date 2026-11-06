@@ -242,11 +242,3 @@ Almacena el perfil completo y el estado de activación de los docentes registrad
 | `fecha_creacion` | `TIMESTAMP` | Marca temporal del registro |
 
 ---
-
-## 🛡️ Seguridad y Buenas Prácticas
-
-- **Cero Secretos en Repositorio:** El repositorio implementa un `.gitignore` estricto que previene la subida accidental de archivos `.env`, carpetas de dependencias (`vendor/`), archivos comprimidos (`.zip`, `.rar`) o documentos privados.
-- **Variables de Entorno con Fallback:** Todas las credenciales sensibles (claves de BD, secretos de OAuth) se obtienen dinámicamente mediante `getenv()`.
-- **Sanitización de Entradas:** Filtrado de entradas de formularios para mitigar vulnerabilidades comunes y control de tipos en JavaScript.
-
----
