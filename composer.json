@@ -1,0 +1,12 @@
+{
+    "name": "uta/plataforma-educativa",
+    "description": "Plataforma Educativa para Docentes - Universidad Técnica de Ambato (FISEI)",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.9",
+        "adnanhussainturki/microsoft-api-php": "^0.04.0",
+        "google/apiclient": "^2.15.0"
+    }
+}
